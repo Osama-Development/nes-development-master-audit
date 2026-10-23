@@ -1,14 +1,16 @@
-# Remaining work
+# الأعمال المتبقية
 
-- Finish byte acquisition exceptions and read the nonmaterializable site through its supported owner.
-- Hash all original bytes; reconcile actual sizes with Library declarations.
-- Safely enumerate nested archive members, retaining duplicate references.
-- Complete typed analysis, content review, component maps and verified media durations.
-- Confirm project boundaries from code, dependencies and content; preserve uncertainty.
-- Reconstruct and independently review each historical family, including partial patches.
-- Publish source files and real Git histories, branches, tags and suitable releases.
-- Verify public anonymous readability, source hashes, tags, releases and documentation.
-- Reconcile every original record against its final analysis and publication disposition.
+الجرد الحالي مثبت عند 1,399 سجل مصدر؛ البصمات متاحة لـ1,398 منها دون اختلاف عن سجل البصمات المعتمد. لا يلزم عرض إعادة الجرد أو إعادة بصم جميع الأصول بوصفهما عملًا لم يبدأ. يبقى ما يلي:
 
-The current audit is incomplete. No universal completion claim is made.
+- استرجاع مصدر الموقع غير المتاح عبر المسار المدعوم، أو إبقاء عدم توفر بايتاته موثقًا؛ لا اختلاق محتوى له.
+- معالجة حدود التحليل: 907 أصول جزئية و93 غير مدعومة. سجلات البيان وحده، وحمولات النسخ الاحتياطية الكبيرة غير الموسعة، والعضو المرفوض بسبب حد الحجم تحتاج مسارًا مضبوط الموارد وتحققًا جديدًا.
+- استكمال المراجعة الهندسية والدلالية للمحتوى، والعلاقات بين المكونات والاعتماديات، وصلاحية البناء والتصحيحات. نتائج الماسح الحالية ساكنة فقط؛ `COMPLETED` لا يعني تشغيل المشروع أو إجازة نشره.
+- مراجعة الصور بصريًا ومحتوى الصوت والفيديو دلاليًا؛ استكمال البيانات الوصفية لا يغطي ذلك.
+- مراجعة النص المستخرج للمستندات وتخطيطها ومعناها. متابعة صفحة PDF الوحيدة بلا نص قابل للاستخراج؛ تحديد هل هي فارغة أو صورة أو تحتاج OCR. لم تُنفذ OCR، ولا يتوفر نموذج عربي مثبت في بيئة الفحص المسجلة. المستندات داخل الأرشيفات خارج نطاق دفعة الأصول الـ109.
+- تثبيت حدود المشاريع والتسلسل التاريخي من الأدلة، مع إبقاء الاتجاه المجهول والتصحيحات الجزئية صريحين. المرشحات الـ511 القديمة ليست قائمة إصدارات أو مستودعات نهائية.
+- استكمال مراجعة الأسرار والخصوصية والتراخيص لكل محتوى مرشح للنشر؛ الفحص المحدود لعائلة لا يبرئ جميع الأصول.
+- استكمال اختبارات التشغيل والتفاعل والتحقق البصري للعائلات المستعادة حيث تُعتمد بيئة اختبار مناسبة. نجاح فحص JavaScript الساكن لا يثبت سلوك الواجهة.
+- استكمال توثيق وظائف viewer على مستوى الأسطر واختبارات التشغيل؛ نُشرت Pre-releases الستة وتحقق المنسق من مصادر Tags الستة بمقارنة SHA-256.
+- يراجع المنسق باقي النشر المصرح به وتاريخ Git والفروع والوسوم والإصدارات وقراءة المحتوى البعيد وبصماته، ثم يطابق كل أصل مع قرار تحليله ونشره أو سبب استبعاده.
 
+لا يوجد إعلان اكتمال عالمي. السجلات المكررة وإعادات المحاولة لا تُحسب كمصادر أصلية إضافية، وتبقى النصوص والمسارات الحساسة في السجل الخاص.

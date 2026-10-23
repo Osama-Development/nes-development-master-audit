@@ -1,0 +1,63 @@
+{
+  "scope": "Current original PDF and DOCX files selected by MIME or suffix; nested archive documents excluded.",
+  "originals": 109,
+  "format_counts": {
+    "pdf": 56,
+    "docx": 53
+  },
+  "status_counts": {
+    "EXTRACTED_TEXT": 108,
+    "PARTIAL": 1
+  },
+  "pdf_pages": 781,
+  "pdf_pages_without_text": 1,
+  "word_paragraphs": 35807,
+  "word_tables": 50,
+  "extracted_text_characters": 2810866,
+  "ocr_environment": {
+    "tesseract_available": true,
+    "installed_languages": [
+      "eng",
+      "osd"
+    ],
+    "arabic_language_available": false,
+    "ocr_executed": false
+  },
+  "limitations": [
+    "Text extraction is not semantic review or visual/layout verification.",
+    "PDF text order and Arabic shaping may be imperfect; page strings retained without inferred corrections.",
+    "Pages lacking text are candidates for scanned/image-only/blank pages, not confirmed scans; OCR not performed.",
+    "DOCX OOXML text parts include headers, footers, foot/endnotes and comments when present; visible/deleted/instruction segments are separately labelled.",
+    "Tables preserve row/cell-to-paragraph structure; pagination, numbering, fields, tracked-change visibility and layout are not resolved.",
+    "Embedded objects/macros and external relationships were not executed or fetched.",
+    "Images, charts, equations and nontext visual meaning remain pending.",
+    "No public document contents, names or private source identifiers included.",
+    "This bounded extraction does not complete the 1399-original engineering audit."
+  ],
+  "word_part_type_counts": {
+    "document.xml": 53,
+    "header.xml": 19,
+    "footer.xml": 28,
+    "footnotes.xml": 1,
+    "endnotes.xml": 1
+  },
+  "word_text_context_paragraph_counts": {
+    "footnote": 2,
+    "endnote": 2
+  },
+  "encrypted_pdf_count": 0,
+  "embedded_word_media_count": 1,
+  "verification": {
+    "source_hash_rechecked_after_extraction": 109,
+    "pdf_page_number_sequences_verified": 56,
+    "docx_paragraph_and_table_references_verified": 53,
+    "originals_modified": false,
+    "external_urls_fetched": false,
+    "ocr_performed": false,
+    "rendering_performed": false
+  },
+  "validation_notes": [
+    "Two incomplete intermediate PDF records were detected during independent page-count validation, then re-extracted sequentially and all page sequences verified. No unverified completion retained.",
+    "Images were not decoded for semantic review. Later verification uses top-level image resource counts only."
+  ]
+}

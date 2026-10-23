@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "scope": "Restored historical checkpoint plus current inventory reconciliation; current original contents not rehashed by this subtask.",
+  "historical_inventory": {
+    "checkpoint_items": 1355,
+    "checkpoint_files": 1352,
+    "checkpoint_hashed_originals": 1351,
+    "later_1359_listing": "historical parent-session claim only; not reconciled here",
+    "current_full_listing": {
+      "files": 1399,
+      "declared_bytes": 1957677973,
+      "baseline_id_intersection": 1352,
+      "current_additions": 47,
+      "baseline_absent_current": 0,
+      "same_id_metadata_changed": 0
+    }
+  },
+  "static_evidence": {
+    "objects": 10094,
+    "stored_text_objects": 8904,
+    "objects_with_static_analysis": 10094,
+    "occurrences": 27037,
+    "archive_member_edges": 25686,
+    "candidate_states": 511,
+    "unique_candidate_tree_hashes": 399,
+    "pairwise_comparisons": 963,
+    "error_records": 2,
+    "content_signature_assigned_states": 92,
+    "unassigned_states": 419,
+    "static_extraction_counts": {
+      "dependencies_objects": 2932,
+      "dependencies_recorded_entries": 22398,
+      "sql_tables_objects": 123,
+      "sql_tables_recorded_entries": 2372,
+      "secret_flags_objects": 43,
+      "secret_flags_recorded_entries": 50,
+      "headings_objects": 2850,
+      "headings_recorded_entries": 28746
+    }
+  },
+  "coverage_limitations": [
+    "Hashing and indexing are not semantic review completion.",
+    "Candidate snapshots include full bundles, partial patches, and documentation; no final release list exists.",
+    "Comparisons have unknown chronological direction.",
+    "Media relevance/transcription, database row comparison, dependency/call graphs, patch applicability and rebuildability remain incomplete.",
+    "Equal SHA-256 is recorded hash equivalence; byte-by-byte collision confirmation was not completed.",
+    "Private checkpoint contains raw source and must never be published wholesale.",
+    "Newer pruned scratch checkpoint was not saved; this recovery does not recreate missing later analysis.",
+    "Current listing proves inventory presence only; historical hashes attached by exact private source-ID match do not certify unchanged current bytes."
+  ],
+  "source_id_method": "src- plus full SHA-256 of private source identifier; mapping private",
+  "public_paths": "No original filenames, archive member paths, private source identifiers, source texts, or raw secret values included."
+}

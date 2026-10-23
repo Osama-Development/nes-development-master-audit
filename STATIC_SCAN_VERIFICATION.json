@@ -1,0 +1,11 @@
+{
+  "root_source_count": 1399,
+  "hashed_root_count": 1398,
+  "unique_root_sha256_count": 1157,
+  "hash_mismatches_vs_authoritative_current_hashes": 0,
+  "tests_passed": 11,
+  "semantic_review": "NOT_PERFORMED",
+  "analysis_status_scope": "STATIC_ONLY; COMPLETED does not mean semantic review or executed tests of scanned projects",
+  "source_programs_executed": false,
+  "archive_members_written_to_disk": false
+}

@@ -1,0 +1,177 @@
+{
+  "scope": "Independent bounded static QA of six viewer sources, local prepared Git history, and proposed public coverage metadata. Not completion of the 1399-original engineering audit.",
+  "result": "PASS for recorded bounded checks",
+  "source_states": [
+    {
+      "state": 1,
+      "sha256": "1dccd4de3e7e5a81c308243ef0bef8faeedf8d683296edac86823f93acbcb7c1",
+      "size_bytes": 47519,
+      "original_export_git_bytes_equal": true,
+      "one_html_in_commit": true,
+      "manifest_prefix_matches": true,
+      "sha256sums_matches": true,
+      "dependency_license_notice_present": true,
+      "syntax_script_count": 1,
+      "syntax_all_pass": true,
+      "credential_pattern_matches": {
+        "private_key": 0,
+        "github_token": 0,
+        "openai_token": 0,
+        "google_key": 0,
+        "aws_key": 0,
+        "private_source_id": 0
+      },
+      "embedded_parser_header": false
+    },
+    {
+      "state": 2,
+      "sha256": "0793762ac2c36162193d5053de5b67c4387423e61b93c6556401a3d0f0e2b679",
+      "size_bytes": 49158,
+      "original_export_git_bytes_equal": true,
+      "one_html_in_commit": true,
+      "manifest_prefix_matches": true,
+      "sha256sums_matches": true,
+      "dependency_license_notice_present": true,
+      "syntax_script_count": 1,
+      "syntax_all_pass": true,
+      "credential_pattern_matches": {
+        "private_key": 0,
+        "github_token": 0,
+        "openai_token": 0,
+        "google_key": 0,
+        "aws_key": 0,
+        "private_source_id": 0
+      },
+      "embedded_parser_header": false
+    },
+    {
+      "state": 3,
+      "sha256": "b3afe55ffc37e9447e91e57d3317bcd1a7425467a52c94cdf0065835580907ed",
+      "size_bytes": 64904,
+      "original_export_git_bytes_equal": true,
+      "one_html_in_commit": true,
+      "manifest_prefix_matches": true,
+      "sha256sums_matches": true,
+      "dependency_license_notice_present": true,
+      "syntax_script_count": 1,
+      "syntax_all_pass": true,
+      "credential_pattern_matches": {
+        "private_key": 0,
+        "github_token": 0,
+        "openai_token": 0,
+        "google_key": 0,
+        "aws_key": 0,
+        "private_source_id": 0
+      },
+      "embedded_parser_header": false
+    },
+    {
+      "state": 4,
+      "sha256": "19e68e534c45cbaf04ddd2a982039312bdeaa4b3bb9222960c9e4f4fad1026ba",
+      "size_bytes": 185814,
+      "original_export_git_bytes_equal": true,
+      "one_html_in_commit": true,
+      "manifest_prefix_matches": true,
+      "sha256sums_matches": true,
+      "dependency_license_notice_present": true,
+      "syntax_script_count": 2,
+      "syntax_all_pass": true,
+      "credential_pattern_matches": {
+        "private_key": 0,
+        "github_token": 0,
+        "openai_token": 0,
+        "google_key": 0,
+        "aws_key": 0,
+        "private_source_id": 0
+      },
+      "embedded_parser_header": true
+    },
+    {
+      "state": 5,
+      "sha256": "9d74e486b788f4d5e4d745b58e0778654edb853e435174f519759c41b61cefa4",
+      "size_bytes": 187491,
+      "original_export_git_bytes_equal": true,
+      "one_html_in_commit": true,
+      "manifest_prefix_matches": true,
+      "sha256sums_matches": true,
+      "dependency_license_notice_present": true,
+      "syntax_script_count": 2,
+      "syntax_all_pass": true,
+      "credential_pattern_matches": {
+        "private_key": 0,
+        "github_token": 0,
+        "openai_token": 0,
+        "google_key": 0,
+        "aws_key": 0,
+        "private_source_id": 0
+      },
+      "embedded_parser_header": true
+    },
+    {
+      "state": 6,
+      "sha256": "5e85f19235bede6d4eaad369fa908d29d9fd0f522ddf2fdee5d3dd24f0231f3a",
+      "size_bytes": 214318,
+      "original_export_git_bytes_equal": true,
+      "one_html_in_commit": true,
+      "manifest_prefix_matches": true,
+      "sha256sums_matches": true,
+      "dependency_license_notice_present": true,
+      "syntax_script_count": 2,
+      "syntax_all_pass": true,
+      "credential_pattern_matches": {
+        "private_key": 0,
+        "github_token": 0,
+        "openai_token": 0,
+        "google_key": 0,
+        "aws_key": 0,
+        "private_source_id": 0
+      },
+      "embedded_parser_header": true
+    }
+  ],
+  "local_history": {
+    "commits": 6,
+    "linear_order_matches_declared_manifest": true,
+    "one_html_per_commit": true,
+    "all_bytes_equal_originals": true,
+    "dates": "Restoration records; original development chronology not proven"
+  },
+  "syntax": {
+    "scripts": 9,
+    "method": "Independent node --check parsing only; no source runtime executed",
+    "all_pass": true
+  },
+  "privacy": {
+    "credential_pattern_matches": {
+      "private_key": 0,
+      "github_token": 0,
+      "openai_token": 0,
+      "google_key": 0,
+      "aws_key": 0,
+      "private_source_id": 0
+    },
+    "coverage_original_filename_matches": 0,
+    "review": "Static credential-pattern and data-flow review, not exhaustive secret clearance. Viewer registry contains bundled document labels already present in authorized source; no private identifiers or credentials detected by these checks.",
+    "network": "One relative fetch call per state; external CDN/font assets present; no XMLHttpRequest, sendBeacon, or WebSocket reference observed. Imported Markdown/HTML can cause additional network access.",
+    "persistence": "Later three states store drafts in browser localStorage as plaintext."
+  },
+  "license": {
+    "embedded_parser_states": [
+      4,
+      5,
+      6
+    ],
+    "embedded_header_retained": true,
+    "dependency_mit_notice_all_states": true,
+    "app_license": "Not inferred or granted",
+    "exact_parser_release": "Not established",
+    "qualification": "Notice/header consistency review only; no independent provenance or legal clearance."
+  },
+  "material_limits": [
+    "Marked output assigned to innerHTML without sanitization; trusted input required.",
+    "Source-span edits and round-trip export remain heuristic and untested at runtime.",
+    "Unpinned CDN parser dependency in states 1-3; external font/style dependency remains in all states.",
+    "Independent QA did not read remote GitHub bytes; root remote comparisons are separate evidence.",
+    "Global current inventory byte hashing, semantic review, redaction and project/release decisions remain incomplete."
+  ]
+}

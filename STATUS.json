@@ -1,11 +1,59 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "state": "IN_PROGRESS",
-  "source_inventory": {"library_files": 1359, "declared_bytes": 1880454334, "listing_complete": true},
-  "original_byte_acquisition": {"state": "IN_PROGRESS", "verified_final_count": null},
-  "content_analysis": {"completed_originals": null, "archive_members": null, "full_engineering_review_complete": false},
-  "projects": {"content_confirmed_candidate_families": 1, "historical_viewer_states_byte_verified": 6, "published_project_repositories": 0},
-  "github": {"audit_repository": "Osama-Development/nes-development-master-audit", "audit_public_verified_in_browser": true, "project_commits_verified_remotely": 0},
-  "subagents": {"actual_launched": 4, "model": "gpt-6.1-sol"},
-  "final_audit": "PENDING"
+  "source_inventory": {
+    "snapshot_date_local": "2026-10-24",
+    "library_files": 1399,
+    "declared_bytes": 1957677973,
+    "listing_complete": true
+  },
+  "original_byte_inventory": {
+    "hashed_files": 1398,
+    "unique_sha256": 1157,
+    "unsupported_site_projections": 1,
+    "actual_bytes_hashed": 1957676018,
+    "all_1351_prior_hashes_reverified": true
+  },
+  "static_analysis": {
+    "unique_occurrences_including_roots": 60863,
+    "archive_member_occurrences": 59464,
+    "original_status_counts": {
+      "COMPLETED": 399,
+      "PARTIAL": 907,
+      "UNSUPPORTED": 93
+    },
+    "completion_scope": "Static bytes, archive inventory and typed extraction only",
+    "semantic_review": "NOT_PERFORMED by automated scanner",
+    "safe_scanner_tests_passed": 11
+  },
+  "viewer": {
+    "source_states_published": 6,
+    "source_commits": 6,
+    "documentation_commits": 5,
+    "total_commits_at_snapshot06": 11,
+    "independent_local_byte_and_syntax_review": "PASS",
+    "runtime_test": "NOT_PERFORMED",
+    "release_verification": "PASS: six published pre-releases and matching target commits observed in GitHub UI; all six tag source SHA-256 verified by readback",
+    "tags": 6,
+    "pre_releases": 6,
+    "stable_releases": 0,
+    "branches": 2
+  },
+  "additional_project_candidates": {
+    "older_checkpoint_mechanical_states": 511,
+    "content_signature_assigned": 92,
+    "unassigned": 419,
+    "final_repository_count": null
+  },
+  "global_security_clearance": "PENDING; only individually reviewed source families publishable",
+  "final_global_audit": "PENDING",
+  "document_extraction": {
+    "originals": 109,
+    "extracted_text": 108,
+    "partial": 1,
+    "pdf_pages": 781,
+    "word_paragraphs": 35807,
+    "tables": 50,
+    "scope": "Read-only text extraction; no OCR, rendering or semantic completion"
+  }
 }

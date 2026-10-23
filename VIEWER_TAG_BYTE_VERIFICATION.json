@@ -1,0 +1,50 @@
+[
+  {
+    "tag": "archive-01-base-reader",
+    "path": "docs-viewer.html",
+    "sha256": "1dccd4de3e7e5a81c308243ef0bef8faeedf8d683296edac86823f93acbcb7c1",
+    "expected_sha256": "1dccd4de3e7e5a81c308243ef0bef8faeedf8d683296edac86823f93acbcb7c1",
+    "pass": true,
+    "bytes": 47519
+  },
+  {
+    "tag": "archive-02-recording-layout",
+    "path": "docs-viewer-recording.html",
+    "sha256": "0793762ac2c36162193d5053de5b67c4387423e61b93c6556401a3d0f0e2b679",
+    "expected_sha256": "0793762ac2c36162193d5053de5b67c4387423e61b93c6556401a3d0f0e2b679",
+    "pass": true,
+    "bytes": 49158
+  },
+  {
+    "tag": "archive-03-collapsible-editor",
+    "path": "docs-viewer (1).html",
+    "sha256": "b3afe55ffc37e9447e91e57d3317bcd1a7425467a52c94cdf0065835580907ed",
+    "expected_sha256": "b3afe55ffc37e9447e91e57d3317bcd1a7425467a52c94cdf0065835580907ed",
+    "pass": true,
+    "bytes": 64904
+  },
+  {
+    "tag": "archive-04-source-drafts",
+    "path": "NES_EDU_Markdown_Viewer_Final.html",
+    "sha256": "19e68e534c45cbaf04ddd2a982039312bdeaa4b3bb9222960c9e4f4fad1026ba",
+    "expected_sha256": "19e68e534c45cbaf04ddd2a982039312bdeaa4b3bb9222960c9e4f4fad1026ba",
+    "pass": true,
+    "bytes": 185814
+  },
+  {
+    "tag": "archive-05-visual-source-editor",
+    "path": "NES_EDU_Markdown_Viewer_Visual_Edit_Final.html",
+    "sha256": "9d74e486b788f4d5e4d745b58e0778654edb853e435174f519759c41b61cefa4",
+    "expected_sha256": "9d74e486b788f4d5e4d745b58e0778654edb853e435174f519759c41b61cefa4",
+    "pass": true,
+    "bytes": 187491
+  },
+  {
+    "tag": "archive-06-structural-editor",
+    "path": "NES_EDU_Markdown_Viewer_Complete_Final.html",
+    "sha256": "5e85f19235bede6d4eaad369fa908d29d9fd0f522ddf2fdee5d3dd24f0231f3a",
+    "expected_sha256": "5e85f19235bede6d4eaad369fa908d29d9fd0f522ddf2fdee5d3dd24f0231f3a",
+    "pass": true,
+    "bytes": 214318
+  }
+]

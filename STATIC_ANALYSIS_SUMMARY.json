@@ -1,0 +1,45 @@
+{
+  "semantic_review": "NOT_PERFORMED",
+  "historical_raw_record_count_before_final_media_append": 61995,
+  "final_media_append_count": 32,
+  "unique_record_count": 60863,
+  "root_analysis_status_counts": {
+    "PARTIAL": 907,
+    "COMPLETED": 399,
+    "UNSUPPORTED": 93
+  },
+  "all_analysis_status_counts": {
+    "PARTIAL": 4904,
+    "COMPLETED": 49324,
+    "UNSUPPORTED": 6635
+  },
+  "root_record_count": 1399,
+  "root_static_status_counts": {
+    "METADATA_ONLY": 582,
+    "INDEXED": 722,
+    "MANIFEST_ONLY": 2,
+    "NOT_SUPPORTED": 92,
+    "UNSUPPORTED_SITE": 1
+  },
+  "root_byte_status_counts": {
+    "HASHED": 1398,
+    "NOT_AVAILABLE": 1
+  },
+  "all_static_status_counts": {
+    "METADATA_ONLY": 3232,
+    "INDEXED": 47502,
+    "NOT_SUPPORTED": 6634,
+    "DIRECTORY": 2145,
+    "REJECTED": 1,
+    "MANIFEST_ONLY": 1348,
+    "UNSUPPORTED_SITE": 1
+  },
+  "rejection_counts": {
+    "MEMBER_SIZE_LIMIT": 1
+  },
+  "duplicate_record_count": 46152,
+  "media_metadata_records_finalized": 32,
+  "scope": "Static bytes, archive inventory and typed metadata only. No source execution. Bulk backup payloads not expanded. Images not visually reviewed; audio/video content not semantically reviewed. Rejected/unsupported/partial records remain incomplete.",
+  "historical_raw_record_count": 62027,
+  "historical_or_retry_records_beyond_current_unique": 1164
+}

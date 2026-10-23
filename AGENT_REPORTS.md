@@ -1,14 +1,30 @@
-# Actual delegated work
+# تقارير الأعمال المفوضة
 
-Four real subagents were launched using the available delegation mechanism, with distinct write ownership. The coordinator owns all remote publication.
+أُنجز العمل بتفويض فعلي لمهام منفصلة. الجدول أدناه يصف نتائج محفوظة يمكن مراجعتها، ولا يفترض أن كل مهمة انتهت أو أن عدد الوكلاء ثابت عبر الجلسات. المنسق يملك جميع عمليات النشر البعيد وتحديث حالة Releases.
 
-| Agent | Model | Responsibility | Verified result so far | State |
-| --- | --- | --- | --- | --- |
-| /root | Current coordinator | Permissions, complete source inventory, acquisition, publication and reconciliation | Account and browser verified; full 1,359-file listing; public audit repository created | IN_PROGRESS |
-| /root/archive_engine | gpt-6.1-sol | Safe recursive archive indexing, typed static analysis, provenance and SHA-256 | Scanner implemented; 12 synthetic safety/integrity tests passed; corpus run pending | IN_PROGRESS |
-| /root/version_recovery | gpt-6.1-sol | Content-based project relations and exact historical snapshots | Six distinct viewer HTML states byte-verified; six real local reconstruction commits and archival tags; not yet remotely published | IN_PROGRESS |
-| /root/conversation_evidence | gpt-6.1-sol | Recover technical historical evidence, distinguish proposals from results | 16-entry technical evidence ledger; seven application diagnostic reports inspected privately; no complete original ChatGPT conversation export obtained | PARTIAL |
-| /root/security_review | gpt-6.1-sol | Independent secret/privacy/publication review | Static scanner implemented; 11 synthetic tests passed; first six source files under review | IN_PROGRESS |
+| المسؤولية | الدليل الحالي | النتيجة وحدودها |
+| --- | --- | --- |
+| المنسق | الجرد الحالي وملفات الحالة والتغطية | 1,399 سجل مصدر أصلي؛ 1,398 أصلًا ذا بصمة و1,157 بصمة فريدة؛ سجل موقع واحد دون بايتات متاحة. حالة النشر والإصدارات يديرها المنسق. |
+| هندسة الأرشيف والتحليل الساكن | STATIC_ANALYSIS_SUMMARY.json وSTATIC_SCAN_VERIFICATION.json | 60,863 سجلًا فريدًا؛ 11 اختبار ماسح ناجحًا؛ صفر اختلاف بصمة عن السجل المعتمد. اكتمال ساكن لـ399 أصلًا، و907 جزئية، و93 غير مدعومة. البرامج المستوردة لم تُنفذ؛ المراجعة الدلالية العامة NOT_PERFORMED. |
+| استعادة عائلة viewer | المراجعة المستقلة المحلية وسجل الاستعادة | ست حالات وستة commits محلية مختارة، ملف HTML واحد في كل حالة، مع تطابق البايتات والبصمات. هذه سجلات استعادة جديدة، وليست commits تطوير أصلية. |
+| التدقيق المستقل لـviewer | INDEPENDENT_VIEWER_AUDIT.json وINDEPENDENT_VIEWER_AUDIT.md | تطابق الأصل والتصدير وGit للحالات الست، وتسعة مقاطع JavaScript اجتازت فحص الصياغة. لا اختبار تشغيل أو إجازة أسرار شاملة أو تحقق بعيد مستقل ضمن هذا التقرير. سيحدّث المنسق حالة viewer releases. |
+| استعادة عناصر الشريحة الأولى | سجل عمليات ومراجعة محليان محفوظان | حالتان محليتان: عنصر الاستخدام الأصلي، ثم مجموعة الاستخدام المصحح والفهم والإنجاز. أربعة أصول HTML محفوظة البايتات؛ أعضاء ZIP الثلاثة تطابق الأصول المنفصلة؛ أربعة فحوص صياغة ناجحة. لم يُختبر التشغيل أو نجاح التصحيح بصريًا، ولا تثبت هذه المجموعة استعادة كامل المنهج. |
+| استخراج أدلة المستندات | DOCUMENT_EXTRACTION_SUMMARY.json وDOCUMENT_EXTRACTION_COVERAGE.json | 109 أصول؛ 108 مستخرجة النص وواحد جزئي. تغطية 781 صفحة PDF و35,807 فقرة Word و50 جدولًا. أعيد التحقق من بصمات الأصول الـ109؛ النصوص والمسارات محفوظة خصوصيًا. لا OCR أو مراجعة تخطيط أو معنى. |
+| استعادة سجل المرشحات القديم | checkpoint-summary.json وproject-registry.json وstate-candidates.json | نقطة سابقة تضم 511 حالة ميكانيكية؛ صُنّفت 92 بتواقيع محتوى وبقيت 419 دون إسناد. ليست قرارات مستودعات أو Releases، ولا تغطي التحليل الحالي كله. |
+| الخصوصية والأدلة التاريخية | مراجعات خاصة محدودة لكل عائلة ومصدر | تُفصل المقترحات والتقارير السابقة عن النتائج المستقلة؛ لا يُدّعى امتلاك أرشيف محادثات أصلي كامل. فحوص العائلات المحدودة لا تمنح إجازة أمنية لجميع المصادر. |
 
-Each agent maintains a private structured operation report. Public reports omit private source text and secret values. Model reasoning traces are not an exposed deliverable and are not claimed as available.
+تطابق نسختا الملخص والتحقق العامتان حاليًا الملفين الخاصين المعتمدين للتحليل الحالي. هذه مطابقة للتقارير، وليست تنفيذًا لاختبارات المشاريع الممسوحة. لا تُنشر نصوص المصادر الخاصة أو قيم الأسرار، ولا تُقدّم آثار التفكير الداخلية بوصفها تسليمًا متاحًا.
 
+## معرفات التفويض الفعلي
+
+| معرف الوكيل | النطاق | حالة الأدلة |
+| --- | --- | --- |
+| /root/archive_engine | هندسة الأرشيف | نقطة الاستئناف السابقة؛ لم تُعتمد جميع نتائجه كإكمال |
+| /root/version_recovery | مقارنة الحالات التاريخية | نقطة الاستئناف السابقة؛ المرشحات أولية |
+| /root/conversation_evidence | أدلة المحادثات | وصول محدود؛ لا أرشيف محادثات كامل |
+| /root/security_review | مراجعة النشر | مراجعات محدودة لكل عائلة |
+| /root/architecture_discovery | اكتشاف المعمارية | نقطة الاستئناف السابقة؛ التصنيف جزئي |
+| /root/restore_viewer | استعادة viewer والماسح | ملفات الأدلة الحالية؛ يستكمل فهرس الأسطر |
+| /root/restore_audit | تدقيق مستقل واستعادة الشرائح والمستندات | تقارير محلية محددة النطاق؛ تحديث التقارير الثلاثة راجعه المنسق |
+
+النشر البعيد مسؤولية /root وحده. فُحصت إصدارات viewer الستة وبصمات مصادر Tags منفصلًا عن التدقيق المحلي.
