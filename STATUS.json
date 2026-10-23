@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "state": "IN_PROGRESS",
+  "source_inventory": {"library_files": 1359, "declared_bytes": 1880454334, "listing_complete": true},
+  "original_byte_acquisition": {"state": "IN_PROGRESS", "verified_final_count": null},
+  "content_analysis": {"completed_originals": null, "archive_members": null, "full_engineering_review_complete": false},
+  "projects": {"content_confirmed_candidate_families": 1, "historical_viewer_states_byte_verified": 6, "published_project_repositories": 0},
+  "github": {"audit_repository": "Osama-Development/nes-development-master-audit", "audit_public_verified_in_browser": true, "project_commits_verified_remotely": 0},
+  "subagents": {"actual_launched": 4, "model": "gpt-6.1-sol"},
+  "final_audit": "PENDING"
+}
