@@ -74,5 +74,15 @@
     "state01_commit": "7c05e1df0a463f35610b35d5cef0d602860c3676",
     "state02_commit": "2126fbb3d5c474deac2fdcaa484ace9668dfce87",
     "intermediate_restoration_commit": "fdb7b37514101dce4f38a6006b5cd696098d3636"
-  }
+  },
+  "sync_analysis": {
+    "original_archives_restored_and_hash_verified": 16,
+    "unique_direct_deployable_trees": 10,
+    "pair_comparisons": 45,
+    "distinct_api_sources": 6,
+    "captured_runtime_data_archives_held_private": 2,
+    "publication_clearance": "PENDING_INDEPENDENT_REVIEW",
+    "runtime_test": "NOT_PERFORMED"
+  },
+  "external_visitor_verification": "NOT_COMPLETED: unauthenticated public retrieval returned DisabledError; Public badges and connected readback verified only"
 }
