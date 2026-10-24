@@ -29,7 +29,7 @@
   "viewer": {
     "source_states_published": 6,
     "source_commits": 6,
-    "documentation_commits": 5,
+    "documentation_commits": 6,
     "total_commits_at_snapshot06": 11,
     "independent_local_byte_and_syntax_review": "PASS",
     "runtime_test": "NOT_PERFORMED",
@@ -37,7 +37,11 @@
     "tags": 6,
     "pre_releases": 6,
     "stable_releases": 0,
-    "branches": 2
+    "branches": 2,
+    "main_commits": 12,
+    "named_function_occurrences_indexed": 152,
+    "exact_transition_patches": 5,
+    "latest_documentation_commit": "f0e9763d64edff9f4a3d3ad7ac096a0b7bd57f7a"
   },
   "additional_project_candidates": {
     "older_checkpoint_mechanical_states": 511,
@@ -55,5 +59,20 @@
     "word_paragraphs": 35807,
     "tables": 50,
     "scope": "Read-only text extraction; no OCR, rendering or semantic completion"
+  },
+  "slides": {
+    "repository": "Osama-Development/nes-slide01-interactives",
+    "visibility": "Public",
+    "main_commits": 3,
+    "captured_states": 2,
+    "branches": 1,
+    "tags": 2,
+    "pre_releases": 2,
+    "stable_releases": 0,
+    "original_html_sources_verified_from_tags": 4,
+    "runtime_test": "NOT_PERFORMED",
+    "state01_commit": "7c05e1df0a463f35610b35d5cef0d602860c3676",
+    "state02_commit": "2126fbb3d5c474deac2fdcaa484ace9668dfce87",
+    "intermediate_restoration_commit": "fdb7b37514101dce4f38a6006b5cd696098d3636"
   }
 }

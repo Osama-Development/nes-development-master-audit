@@ -21,7 +21,7 @@
 
 استخراج النص شمل **109 أصول مستندية: 56 PDF و53 DOCX**. أُنجز استخراج النص لـ108، وبقي ملف PDF واحد جزئيًا لأن صفحة واحدة بلا نص قابل للاستخراج. حُفظت الأدلة الخاصة لـ**781 صفحة PDF و35,807 فقرة Word و50 جدولًا**. استخراج النص ليس مراجعة دلالية أو تحققًا من التخطيط؛ لم تُنفذ OCR أو مراجعة بصرية للصور. التفاصيل الآمنة في [DOCUMENT_EXTRACTION_SUMMARY.json](DOCUMENT_EXTRACTION_SUMMARY.json) و[DOCUMENT_EXTRACTION_COVERAGE.json](DOCUMENT_EXTRACTION_COVERAGE.json).
 
-تحققت المراجعة المستقلة المحلية من ست حالات viewer، ومن تطابق بايتات الأصل والتصدير وGit، ومن تسعة مقاطع JavaScript بفحص الصياغة فقط. اختبارات تشغيل viewer لم تُنفذ. نشر المنسق ست حالات مصدر فعلية عبر 11 Commit على main، وستة Tags وستة Pre-releases، مع فرعين. تحقق منفصل من قراءة ملفات Tags الستة أثبت تطابق SHA-256 مع الأصول؛ راجع [VIEWER_TAG_BYTE_VERIFICATION.json](VIEWER_TAG_BYTE_VERIFICATION.json). المشروع: [nes-markdown-viewer](https://github.com/Osama-Development/nes-markdown-viewer). لا تعادل هذه النتائج اختبار التشغيل. راجع [INDEPENDENT_VIEWER_AUDIT.json](INDEPENDENT_VIEWER_AUDIT.json).
+تحققت المراجعة المستقلة المحلية من ست حالات viewer، ومن تطابق بايتات الأصل والتصدير وGit، ومن تسعة مقاطع JavaScript بفحص الصياغة فقط. اختبارات تشغيل viewer لم تُنفذ. نشر المنسق ست حالات مصدر فعلية عبر 12 Commit على main، وستة Tags وستة Pre-releases، مع فرعين. تحقق منفصل من قراءة ملفات Tags الستة أثبت تطابق SHA-256 مع الأصول؛ راجع [VIEWER_TAG_BYTE_VERIFICATION.json](VIEWER_TAG_BYTE_VERIFICATION.json). المشروع: [nes-markdown-viewer](https://github.com/Osama-Development/nes-markdown-viewer). لا تعادل هذه النتائج اختبار التشغيل. راجع [INDEPENDENT_VIEWER_AUDIT.json](INDEPENDENT_VIEWER_AUDIT.json).
 
 ## معنى التغطية وحدودها
 
@@ -34,3 +34,9 @@
 تُحفظ الأصول دون تعديل مع ربط خاص بالمصدر والبصمة. تُفحص الأرشيفات ساكنًا مع حدود للموارد والمسارات. تبقى الإشارات المكررة محفوظة، ويخضع كل محتوى مرشح للنشر لمراجعة أسرار وخصوصية وحقوق مستقلة. لا تُنشر هنا النصوص المستندية الخاصة أو المحادثات الشخصية أو بيانات الطلاب أو الأسرار أو السجلات الخام، ولا تمنح الاستعادة ترخيصًا جديدًا لمواد طرف ثالث.
 
 تاريخ Git المستعاد سجل جديد للحالات المثبتة، وليس إعادة اختلاق لتواريخ تطوير أو نسب تأليف. يتحقق المنسق من المحتوى البعيد بعد رفعه؛ نجاح الكتابة وحده لا يكفي. يعرض [AGENT_REPORTS.md](AGENT_REPORTS.md) أدلة الأعمال المحدودة و[NEXT_STEPS.md](NEXT_STEPS.md) المتبقي. توقف الجلسة لا يعني استمرار العمل في الخلفية.
+
+## مشروع ثانٍ منشور
+
+[nes-slide01-interactives](https://github.com/Osama-Development/nes-slide01-interactives): حالتان تاريخيتان عبر ثلاثة Commits؛ الحالة الأولى تضم عنصر الاستخدام الأصلي، والثانية المجموعة المصححة من الاستخدام والفهم والإنجاز. يوجد Tag وPre-release لكل حالة، وفرع main واحد. طابقت قراءة المصادر الأربعة من Tags بصمات الأصول؛ [أدلة التحقق](SLIDES_TAG_BYTE_VERIFICATION.json). Commit وسيط يطبق تصحيح الاستخدام أثناء الاستعادة، ولا يُقدّم كإصدار تاريخي ثالث. لم يُختبر التشغيل أو نجاح التصحيح بصريًا.
+
+أضيف إلى main في المحرر [دليل تشغيل الزائر](https://github.com/Osama-Development/nes-markdown-viewer/blob/main/RUNBOOK.md)، وفهرس152 ظهورًا لدوال تطبيق مسماة عبر اللقطات الست، وخمسة فروق سطرية كاملة. يستثني فهرس الدوال مكتبة Marked والـcallbacks والدوال السهمية والمحلية غير المسماة؛ ليس رسم استدعاءات شاملًا. بقيت Tags التاريخية ثابتة.

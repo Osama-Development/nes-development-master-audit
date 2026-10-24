@@ -1,0 +1,34 @@
+[
+  {
+    "tag": "archive-01-use-element",
+    "path": "NES_Slide01_Element01_Use_Interactive.html",
+    "sha256": "c462b0648b4b9d81c91c499005205e29fe0ef8e2e0ee28cd52acc063a62f02de",
+    "expected_sha256": "c462b0648b4b9d81c91c499005205e29fe0ef8e2e0ee28cd52acc063a62f02de",
+    "pass": true,
+    "bytes": 165652
+  },
+  {
+    "tag": "archive-02-three-elements",
+    "path": "NES_Slide01_Element01_Use_Interactive_Fixed.html",
+    "sha256": "715093eed73921a87a1e53a73b64a33ba5ee8f6ceeccceb8541d93bb931a21f4",
+    "expected_sha256": "715093eed73921a87a1e53a73b64a33ba5ee8f6ceeccceb8541d93bb931a21f4",
+    "pass": true,
+    "bytes": 166715
+  },
+  {
+    "tag": "archive-02-three-elements",
+    "path": "NES_Slide01_Element02_Understanding_Interactive.html",
+    "sha256": "c7262621618b5cd23e4773e119c24fcfd1bcf34b363882b87fe68cef8bdcd603",
+    "expected_sha256": "c7262621618b5cd23e4773e119c24fcfd1bcf34b363882b87fe68cef8bdcd603",
+    "pass": true,
+    "bytes": 178083
+  },
+  {
+    "tag": "archive-02-three-elements",
+    "path": "NES_Slide01_Element03_Achievement_Interactive.html",
+    "sha256": "1285f90a44b98b431ce2ec49e73bfdbaac85ef052c15465f71cdd63179e656ff",
+    "expected_sha256": "1285f90a44b98b431ce2ec49e73bfdbaac85ef052c15465f71cdd63179e656ff",
+    "pass": true,
+    "bytes": 180353
+  }
+]
