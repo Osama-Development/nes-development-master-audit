@@ -81,8 +81,65 @@
     "pair_comparisons": 45,
     "distinct_api_sources": 6,
     "captured_runtime_data_archives_held_private": 2,
-    "publication_clearance": "PENDING_INDEPENDENT_REVIEW",
-    "runtime_test": "NOT_PERFORMED"
+    "publication_clearance": "PARTIAL_SOURCE_PUBLICATION_ONLY",
+    "runtime_test": "NOT_PERFORMED",
+    "verified_exported_member_occurrences": 623,
+    "resource_unique_hashes_reviewed": 17,
+    "repository": "Osama-Development/nes-sync",
+    "repository_commits_verified": 2,
+    "latest_verified_commit": "a7f99e0e44ed74f42b59fa5042f7502fc3b3d7c3",
+    "published_source_paths": [
+      "assets/common.js"
+    ],
+    "history_reconstruction": "IN_PROGRESS_NO_TAGS_OR_RELEASES"
   },
-  "external_visitor_verification": "NOT_COMPLETED: unauthenticated public retrieval returned DisabledError; Public badges and connected readback verified only"
+  "external_visitor_verification": "NOT_COMPLETED: unauthenticated public retrieval returned DisabledError; Public badges and connected readback verified only",
+  "large_project_recovery": {
+    "materialization": {
+      "source_references": 226,
+      "unique_sha256_objects": 176,
+      "verified_references": 226,
+      "scope": "Selected large-project acquisition plans; immutable Library references retained"
+    },
+    "robotics_xterasys": {
+      "planned_sources": 46,
+      "directly_reviewed_hash_matches": 35,
+      "engineering_review": "PARTIAL",
+      "runtime_test": "NOT_PERFORMED",
+      "publication": "PENDING_SECURITY_AND_LINEAGE_REVIEW"
+    },
+    "nes_next": {
+      "planned_sources": 55,
+      "verified_sources": 55,
+      "candidate_trees": 18,
+      "engineering_review": "PARTIAL",
+      "runtime_test": "NOT_PERFORMED",
+      "publication": "PENDING_SECURITY_AND_LINEAGE_REVIEW"
+    },
+    "aion": {
+      "planned_sources": 35,
+      "candidate_states": 15,
+      "distinct_trees": 10,
+      "engineering_review": "IN_PROGRESS",
+      "runtime_test": "NOT_PERFORMED",
+      "publication": "PENDING_SANITIZATION"
+    },
+    "nes_edu": {
+      "planned_sources": 94,
+      "verified_sources": 94,
+      "php_occurrences": 2439,
+      "sql_occurrences": 371,
+      "distinct_sql_bytes": 42,
+      "patch_packages": 13,
+      "engineering_review": "PARTIAL_STATIC",
+      "runtime_test": "NOT_PERFORMED",
+      "publication": "PENDING_SANITIZATION"
+    }
+  },
+  "agent_execution_limit": {
+    "status": "HIT_DURING_LARGE_PROJECT_REVIEWS",
+    "observed_message": "Usage limit; try again at 5:53 PM",
+    "effect": "Robotics and AION delegated reviews stopped before declared completion; saved partial reports retained",
+    "workaround_agents_spawned": false
+  }
 }
